@@ -69,6 +69,8 @@ window.addEventListener('DOMContentLoaded', function() {
                 let num = document.querySelector('.number');
                 num.innerText = c;
 
+                data = []; 
+                
                 let link = document.querySelectorAll('.link');
                 for(let i = 0; i < link.length; i++) {
                     link[i].addEventListener('click', () => {
