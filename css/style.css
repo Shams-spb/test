@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box; }
+
+main {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.post_block {
+  text-align: center; }
+
+.text {
+  width: 60%;
+  margin: 20px auto; }
+
+.block_icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 20px auto;
+  cursor: pointer; }
+
+.message {
+  font-size: 25px; }
+
+.number {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 0; }
+
+.message_block {
+  position: relative;
+  padding: 30px 0;
+  height: 217px; }
+
+.form {
+  width: 300px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px; }
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 10px; }
+
+.messages {
+  margin-top: 30px;
+  text-align: center; }
+
+.bl {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.link {
+  cursor: pointer;
+  color: blue; }
+
+.link:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=style.css.map */
